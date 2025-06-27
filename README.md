@@ -5,7 +5,7 @@
 |------------------|--------------|-------------|
 | 📱 Mobile App     | 🟢 **PUBLIC**  | Flutter application - (https://github.com/Zerie5/front-end-flutter-dart)  
 | 🖥️ Admin Panel     | 🟢 **PUBLIC**  | Admin Panel - (https://github.com/Zerie5/lul-admin-panel)  
-| 🔧 Backend API     | 🟢 **PUBLIC** | Available to SCF evaluators upon request  
+| 🔧 Backend API     | 🟢 **PUBLIC** | Backend System-  
 
 
 
