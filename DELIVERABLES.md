@@ -17,8 +17,11 @@ This document maps each SCF Activation Award deliverable to its implementation, 
 ## 📌 Deliverable 1: Development of a front-end interface for secure Login as well as creation and funding of Stellar wallet accounts. Integrate with payment systems such as credit card.
 
 **Completion Metric:** ✅ COMPLETED – Successful logging in and purchasing crypto and funding wallet
-** Repositories:**  [LulPay Mobile App (Flutter)](https://github.com/Zerie5/front-end-flutter-dart) ,   
-                    [LulPay Backend API (Spring Boot)](https://github.com/Zerie5/lul-backend-public)
+
+
+🔗 **Related Repositories:**  
+- 📱 [Frontend (Flutter)](https://github.com/Zerie5/front-end-flutter-dart)  
+- 🔧 [Backend API (Spring Boot)](https://github.com/Zerie5/lul-backend-public)
                     
 ---
 
@@ -117,9 +120,11 @@ This document maps each SCF Activation Award deliverable to its implementation, 
 ## 📌 Deliverable 2: Backend integration with the Stellar network to support Transfer of funds between Wallets.
 
 **Completion Metric:** ✅ COMPLETED – Successful processing of transactions and transfer between wallets during testing
-** Repositories:**  [LulPay Mobile App (Flutter)](https://github.com/Zerie5/front-end-flutter-dart) ,   
-                    [LulPay Backend API (Spring Boot)](https://github.com/Zerie5/lul-backend-public)
 
+
+🔗 **Related Repositories:**  
+- 📱 [Frontend (Flutter)](https://github.com/Zerie5/front-end-flutter-dart)  
+- 🔧 [Backend API (Spring Boot)](https://github.com/Zerie5/lul-backend-public)
 ---
 
 ### 📱 Frontend Implementation (Mobile App)
@@ -191,7 +196,10 @@ This document maps each SCF Activation Award deliverable to its implementation, 
 ## 📌 Deliverable 3: Comprehensive Backend Panel for Employees and Agents
 
 **Completion Metric:** ✅ COMPLETED – Successful processing and verification of transaction details as well as monitoring of transactions by backend users
-** Repositories:**  [LulPay Admin Panel (React)](https://github.com/Zerie5/lul-admin-panel)  
+
+
+🔗 **Related Repository:**  
+- 🖥️ [Admin Panel (React)](https://github.com/Zerie5/lul-admin-panel)
 
 ---
 
@@ -311,5 +319,4 @@ This document maps each SCF Activation Award deliverable to its implementation, 
 
 ---
 
-## 📌 Tagged Commit
-**Activation Award Completion:** [v1.0.0-activation-award](https://github.com/Zerie5/Zerie5/releases/tag/v1.0.0-activation-award)
+
