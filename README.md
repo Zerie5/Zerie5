@@ -31,7 +31,7 @@ We successfully delivered all three Activation Award milestones:
 | ✅ Test Login & Wallet Creation  | Run Mobile App → Register → OTP → PIN → Wallet auto-created on Stellar Testnet          |
 | ✅ Fund Wallet                    | Navigate to Wallet Funding → Select Payment Method → Complete Transaction               |
 | ✅ Transfer Between Wallets       | Go to Transfer → Enter Recipient → Confirm → View Updated Balances                     |
-| ✅ Admin Panel Access             | Open Admin Panel → Login with Admin Demo → View Dashboard, Transactions, Reports        |
+| ✅ Admin Panel Access             | Open Admin Panel Page → Login with Admin → View Dashboard, Transactions, Reports        |
 
 ---
 
