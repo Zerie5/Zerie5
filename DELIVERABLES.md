@@ -46,8 +46,8 @@ This document maps each SCF Activation Award deliverable to its implementation, 
 - Automatic Wallet Creation: Triggers upon PIN creation with regional currency detection  
 - Real Stellar Integration: Creates actual Stellar testnet accounts with KeyPair generation  
 - Encrypted Key Storage: AES encryption for private key security  
-- Auto-Funding System: New wallets automatically funded with 100 XLM via Friendbot  
-- Multi-Currency Support: USD/EURO (blockchain), UGX/KES/ETB/SSP (backend)  
+- Auto-Funding System: New wallets automatically funded with 10000 XLM via Friendbot  
+- Multi-Currency Support: USD/EURO (blockchain)
 - Balance Synchronization: Real-time balance updates from Stellar network  
 
 **Key Files:**
@@ -87,7 +87,7 @@ This document maps each SCF Activation Award deliverable to its implementation, 
 
 #### 💰 Wallet Creation & Funding
 - Automatic Stellar Wallet Creation: Testnet wallet generation using Stellar SDK  
-- Auto-Funding: 100 XLM funding via Stellar Friendbot for new wallets  
+- Auto-Funding: 10000 XLM funding via Stellar Friendbot for new wallets  
 - Encrypted Key Storage: AES encryption for secret key management  
 
 **Key Files:**
@@ -113,7 +113,7 @@ This document maps each SCF Activation Award deliverable to its implementation, 
 - `POST /api/register` – User registration with OTP verification  
 - `POST /api/user/pin/create` – PIN creation (triggers wallet creation)  
 - `POST /api/v1/wallets/create` – Stellar wallet creation with auto-funding  
-- `POST /api/user/deposit/unified` – Unified payment processing  
+- `POST /api/user/deposit/unified` – Unified payment deposit  
 
 ---
 
@@ -145,7 +145,7 @@ This document maps each SCF Activation Award deliverable to its implementation, 
 
 #### 📱 Transfer User Interface Screens
 - Transfer Type Selection: Wallet-to-wallet and non-wallet transfers  
-- Recipient Lookup: Validate recipient by Worker ID  
+- Recipient Lookup: Validate recipient by User ID  
 - Multi-Currency Support: Select currency and amount  
 - Transfer Confirmation: Review details and fees  
 - Success Display: Shows blockchain hash post-transaction  
@@ -177,7 +177,7 @@ This document maps each SCF Activation Award deliverable to its implementation, 
 
 #### 💸 Wallet-to-Wallet Transfers
 - P2P Blockchain Transfers: Direct user-to-user payments  
-- Memo System: “Lulpay-Payment Tranx” for transfers  
+- Memo System: “Lulpay-Payment Tranx” for transfers, "Lulpay-Deposit Tranx" for deposit  
 - Fee Management: Includes Stellar base fee (0.00001 XLM)  
 - Transaction Logging: Full audit trail with hashes and timestamps  
 
@@ -187,8 +187,8 @@ This document maps each SCF Activation Award deliverable to its implementation, 
 - `WorkerIdTransferService.java`
 
 **API Endpoints:**
-- `POST /api/v1/unified-transfer/transfer` – Unified wallet transfers  
-- `POST /api/p2p/transfer` – P2P blockchain transfers  
+- `POST /api/v1/unified-transfer/transfer` – Unified wallet transfers (with detail data)  
+- `POST /api/p2p/transfer` – P2P blockchain transfers  (simple test endpoint)
 - `GET /api/user/transactions` – Transaction history  
 
 ---
@@ -220,7 +220,7 @@ This document maps each SCF Activation Award deliverable to its implementation, 
 
 #### 📊 Transaction Management
 - Complete transaction listing with filtering and search  
-- Transaction details modal with timeline tracking  
+- Transaction details  with timeline tracking  
 - Transaction flagging system for suspicious activity  
 - Export functionality (CSV format)  
 - Real-time status updates and processing time monitoring  
@@ -232,7 +232,7 @@ This document maps each SCF Activation Award deliverable to its implementation, 
 
 ---
 
-#### 💸 Fiat-to-Crypto & Crypto-to-Fiat Operations
+#### 💸 Wallet to Wallet & Non-wallet transfer Operations
 - Non-wallet transfer management system  
 - Multiple transfer types (bank, cash pickup, mobile money)  
 - Disbursement stage tracking with status updates  
@@ -250,7 +250,7 @@ This document maps each SCF Activation Award deliverable to its implementation, 
 - Comprehensive dashboard with real-time metrics  
 - Advanced reporting with multiple chart types  
 - Financial reports (fee revenue, transaction value)  
-- User analytics (registration, retention, geographic distribution)  
+- User analytics (registration, retention, geographic distribution....)  
 - Export capabilities (PDF, Excel, CSV)  
 
 **Key Files:**
@@ -315,7 +315,7 @@ This document maps each SCF Activation Award deliverable to its implementation, 
 |----------------------------------|-----------------------------------------------------------------------------------------|
 | Test Login & Wallet Funding     | Mobile App → Register → OTP → PIN → Wallet Auto-Created on Stellar Testnet              |
 | Transfer Between Wallets        | Mobile App → Transfer → Enter Recipient → Confirm → View Updated Balances               |
-| Admin Panel                     | Login with Demo Credentials → View Dashboards, Transactions, Reports                    |
+| Admin Panel                     | Login with Credentials → View Dashboards, Transactions, Reports                    |
 
 ---
 
