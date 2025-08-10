@@ -35,6 +35,8 @@ Transactions can be verified instantly within the app via embedded Horizon or St
 
 📄 Walkthrough Guide & Credentials: https://docs.google.com/document/d/1ca2DZT4Ah1KNrJGY0BplSsJpLShgiV84/edit?usp=sharing&ouid=117888080581823504664&rtpof=true&sd=true
 
+VIdeo Walkthrough:      https://vimeo.com/1108903029
+
 ⚠️ Note: Account creation is disabled for this build for security purposes, but all transaction flows are functional.
 
 
