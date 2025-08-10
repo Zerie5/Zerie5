@@ -26,11 +26,25 @@ We successfully delivered all three Activation Award milestones:
 
 ---
 
+🚀 Public Demo Access
+We have prepared a publicly accessible demo APK and walkthrough guide for reviewers to verify all core flows.
+The build includes pre-created demo accounts and live Stellar Testnet integration.
+Transactions can be verified instantly within the app via embedded Horizon or Stellar Expert links.
+
+📱 APK Download: https://github.com/Zerie5/front-end-flutter-dart/releases/download/v1.0.0/Lul.app.v1.0.3.apk
+
+📄 Walkthrough Guide & Credentials: https://docs.google.com/document/d/1ca2DZT4Ah1KNrJGY0BplSsJpLShgiV84/edit?usp=sharing&ouid=117888080581823504664&rtpof=true&sd=true
+
+⚠️ Note: Account creation is disabled for this build for security purposes, but all transaction flows are functional.
+
+
+
+---
+
 ## 🚀 Next: Build Award Roadmap
 This foundation enables upcoming features:  
 - 🌱 Crowdfunding  
-- 💳 Virtual Cards  
-- 🔄 Digital ROSCAs  
+- 💳 Virtual Cards   
 - 📲 Agent App for cash-out & onboarding services  
 
 ---
